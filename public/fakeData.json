@@ -1,0 +1,79 @@
+[
+	{
+		"id": "63347e54258db54721a74520",
+		"picture": "https://cdn.pixabay.com/photo/2019/04/01/14/14/quran-4095475_960_720.jpg",
+		"requiredTime": 15,
+		"title": "Prayer",
+		"about": "Prayer is the most essential activity that I must do Everyday. It helps me to keep calm and peaceful. It refresh my mind which helps me to focus on my other activities."
+	},
+	{
+		"id": "63347e544462ecc0eb712ec9",
+		"picture": "https://cdn.pixabay.com/photo/2018/10/26/11/14/man-3774381_960_720.jpg",
+		"requiredTime": 90,
+		"title": "Watch Modules",
+		"about": "Another important activity is Watching Module from Programming Hero Website. By watching this modules I learn new things everyday. Which helps me to boost my moral and self-confidence."
+	},
+	{
+		"id": "63347e5417c1e05f9e75f525",
+		"picture": "https://cdn.pixabay.com/photo/2016/11/30/20/58/programming-1873854_960_720.png",
+		"requiredTime": 90,
+		"title": "Coding Practice",
+		"about": "After watching the modules, I always have to practice the codes by myself. Because, Practice makes a man perfect."
+	},
+	{
+		"id": "63347e5490fd32969ee9923f",
+		"picture": "https://cdn.pixabay.com/photo/2015/05/31/10/55/man-791049_960_720.jpg",
+		"requiredTime": 45,
+		"title": "Read Documentation",
+		"about": "To understand and see the insight of a new technologies or old ones is to read the documentation."
+	},
+	{
+		"id": "63347e545607a00f18fe6e2a",
+		"picture": "https://cdn.pixabay.com/photo/2020/05/30/10/01/tutorials-5238355_960_720.jpg",
+		"requiredTime": 30,
+		"title": "Watch Tutorial",
+		"about": "The tutorials are for clearing the concepts that seems hard to me. By watching various tutorial the concepts become more clear to me."
+	},
+	{
+		"id": "63347e540d1c6590cf7de06c",
+		"picture": "https://cdn.pixabay.com/photo/2016/02/03/21/07/student-1178024_960_720.jpg",
+		"requiredTime": 60,
+		"title": "Revision of Previous practices",
+		"about": "I always spent some extra time on revision of the previous lessons. So that I do not forget them."
+	},
+	{
+		"id": "63347e54c4460d271aea0453",
+		"picture": "https://cdn.pixabay.com/photo/2018/02/15/18/29/devops-3155972__340.jpg",
+		"requiredTime": 40,
+		"title": "Analyze Software Development Life Cycle",
+		"about": "To be a better software developer I should know the life cycle of a software. That is why I explore the Life Cycle of Software Development."
+	},
+	{
+		"id": "63347e54d9b58805e9f63bf5",
+		"picture": "https://cdn.pixabay.com/photo/2019/02/10/19/30/newspaper-3988054_960_720.jpg",
+		"requiredTime": 30,
+		"title": "Read Articles",
+		"about": "Articles are the news that helps me to know some new things about the technological world."
+	},
+	{
+		"id": "63347e54d27d550cc1be827d",
+		"picture": "https://cdn.pixabay.com/photo/2017/05/30/03/58/blog-2355684_960_720.jpg",
+		"requiredTime": 30,
+		"title": "Read Blogs About Data Structure",
+		"about": "To know about data structure, blogs are one of the most important and most available resources to me. Just search the required topic and read the blogs."
+	},
+	{
+		"id": "63347e5474235a8f2a7a829c",
+		"picture": "https://cdn.pixabay.com/photo/2016/10/12/13/33/neo-urban-1734495_960_720.jpg",
+		"requiredTime": 40,
+		"title": "Read Blogs About Algorithms",
+		"about": "Algorithm is one of the most important things to a developer. It helps to build the website more efficient with more activeness."
+	},
+	{
+		"id": "63347e54e88d909a9cfe48fb",
+		"picture": "https://images.unsplash.com/photo-1590006137741-5f5892ce5635?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80",
+		"requiredTime": 45,
+		"title": "Summarize Daily Knowledge",
+		"about": "This is the most important task for me at the end of the day. By summarizing everything, I can easily keeps track of the things that I learnt at that day."
+	}
+]
