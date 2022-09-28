@@ -17,7 +17,6 @@ const Home = () => {
 		};
 		loadActivities();
 	}, []);
-
 	return (
 		<div>
 			<h1>{activities.length}</h1>
