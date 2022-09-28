@@ -1,9 +1,12 @@
 import React from 'react';
+import SingleActivity from '../SingleActivity/SingleActivity';
 
-const Activities = () => {
+const Activities = ({ activities }) => {
 	return (
-		<div>
-			<h1>Hi From Activities</h1>
+		<div className="grid grid-cols-3 gap-y-6 mt-7">
+			{activities.map((activity) => (
+				<SingleActivity key={activity.id} activity={activity} />
+			))}
 		</div>
 	);
 };

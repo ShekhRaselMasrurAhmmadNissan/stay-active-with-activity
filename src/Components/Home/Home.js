@@ -18,10 +18,11 @@ const Home = () => {
 		loadActivities();
 	}, []);
 	return (
-		<div>
-			<h1>{activities.length}</h1>
-			<Header />
-			<Activities />
+		<div className="grid grid-cols-5">
+			<div className="col-span-4 mt-20 p-8">
+				<Header />
+				<Activities activities={activities} />
+			</div>
 		</div>
 	);
 };
