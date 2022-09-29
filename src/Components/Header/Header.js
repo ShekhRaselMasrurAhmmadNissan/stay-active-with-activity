@@ -10,7 +10,7 @@ const Header = () => {
 					icon={faBookReader}
 					className="w-9 h-9 text-white"
 				></FontAwesomeIcon>
-				<h2 className="text-info text-4xl font-bold uppercase">
+				<h2 className="text-info text-xl text-center md:text-4xl font-bold uppercase">
 					Stay Active with Activities
 				</h2>
 			</a>

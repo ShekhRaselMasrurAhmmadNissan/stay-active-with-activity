@@ -6,7 +6,7 @@ const SingleActivity = ({ activity, handleRequiredTime }) => {
 	const { picture, title, about, requiredTime } = activity;
 	console.log(activity);
 	return (
-		<div className="card w-[350px] bg-white text-black shadow-xl">
+		<div className="card md:w-[350px] bg-white text-black shadow-xl">
 			<figure>
 				<img src={picture} alt="Shoes" className="h-64 w-full" />
 			</figure>

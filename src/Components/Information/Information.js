@@ -22,7 +22,7 @@ const Information = ({ activityTime }) => {
 	};
 
 	return (
-		<div className="sticky top-10">
+		<div className="lg:sticky lg:top-10">
 			<Profile />
 			<AddBreak handleAddBreak={handleAddBreak} />
 			<ActivityDetails

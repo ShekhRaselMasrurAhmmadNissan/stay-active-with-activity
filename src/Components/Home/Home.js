@@ -25,15 +25,15 @@ const Home = () => {
 		setActivityTime(newRequiredTime);
 	};
 	return (
-		<div className="grid grid-cols-5">
-			<div className="col-span-4 mt-20 p-8 pr-0">
+		<div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-5">
+			<div className="col md:col-span-1 lg:col-span-4 mt-20 lg:p-8 pr-0">
 				<Header />
 				<Activities
 					activities={activities}
 					handleRequiredTime={handleRequiredTime}
 				/>
 			</div>
-			<div className="col-span-1 bg-gray-400">
+			<div className="col-span-1 bg-gray-400 mt-10 md:mt-0 rounded-xl md:rounded-none">
 				<Information activityTime={activityTime} />
 			</div>
 		</div>
