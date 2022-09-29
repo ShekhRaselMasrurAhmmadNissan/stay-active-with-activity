@@ -5,6 +5,8 @@ import Information from '../Information/Information';
 
 const Home = () => {
 	const [activities, setActivities] = useState([]);
+	const [activityTime, setActivityTime] = useState(0);
+	const [breakTime, setBreakTime] = useState(0);
 
 	useEffect(() => {
 		const loadActivities = async () => {
@@ -18,14 +20,22 @@ const Home = () => {
 		};
 		loadActivities();
 	}, []);
+
+	const handleRequiredTime = (requiredTime) => {
+		const newRequiredTime=activityTime+ requiredTime
+		setActivityTime(newRequiredTime)
+	}
 	return (
 		<div className="grid grid-cols-5">
 			<div className="col-span-4 mt-20 p-8 pr-0">
 				<Header />
-				<Activities activities={activities} />
+				<Activities
+					activities={activities}
+					handleRequiredTime={handleRequiredTime}
+				/>
 			</div>
 			<div className="col-span-1 bg-gray-400">
-				<Information />
+				<Information activityTime={activityTime} />
 			</div>
 		</div>
 	);

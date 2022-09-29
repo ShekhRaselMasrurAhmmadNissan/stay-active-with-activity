@@ -3,12 +3,12 @@ import ActivityDetails from '../ActivityDetails/ActivityDetails';
 import AddBreak from '../AddBreak/AddBreak';
 import Profile from '../Profile/Profile';
 
-const Information = () => {
+const Information = ({ activityTime }) => {
 	return (
 		<div className="sticky top-10">
 			<Profile />
 			<AddBreak />
-			<ActivityDetails />
+			<ActivityDetails activityTime={activityTime} />
 		</div>
 	);
 };

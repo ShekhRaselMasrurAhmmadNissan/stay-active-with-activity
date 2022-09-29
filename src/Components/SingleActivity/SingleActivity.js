@@ -2,7 +2,7 @@ import { faArrowAltCircleRight } from '@fortawesome/free-solid-svg-icons';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import React from 'react';
 
-const SingleActivity = ({ activity }) => {
+const SingleActivity = ({ activity, handleRequiredTime }) => {
 	const { picture, title, about, requiredTime } = activity;
 	console.log(activity);
 	return (
@@ -19,7 +19,10 @@ const SingleActivity = ({ activity }) => {
 				</p>
 				<hr />
 				<div className="card-actions justify-end">
-					<button className="py-1 px-2 bg-emerald-300 rounded-lg font-semibold hover:bg-emerald-500 hover:text-white duration-500">
+					<button
+						className="py-1 px-2 bg-emerald-300 rounded-lg font-semibold hover:bg-emerald-500 hover:text-white duration-500"
+						onClick={() => handleRequiredTime(requiredTime)}
+					>
 						Add To List{' '}
 						<FontAwesomeIcon
 							icon={faArrowAltCircleRight}
