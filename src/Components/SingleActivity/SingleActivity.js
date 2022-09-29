@@ -3,7 +3,7 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import React from 'react';
 
 const SingleActivity = ({ activity }) => {
-	const { id, picture, title, about, requiredTime } = activity;
+	const { picture, title, about, requiredTime } = activity;
 	console.log(activity);
 	return (
 		<div className="card w-[350px] bg-white text-black shadow-xl">

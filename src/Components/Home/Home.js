@@ -1,6 +1,7 @@
 import React, { useEffect, useState } from 'react';
 import Activities from '../Activities/Activities';
 import Header from '../Header/Header';
+import Information from '../Information/Information';
 
 const Home = () => {
 	const [activities, setActivities] = useState([]);
@@ -19,9 +20,12 @@ const Home = () => {
 	}, []);
 	return (
 		<div className="grid grid-cols-5">
-			<div className="col-span-4 mt-20 p-8">
+			<div className="col-span-4 mt-20 p-8 pr-0">
 				<Header />
 				<Activities activities={activities} />
+			</div>
+			<div className="col-span-1 bg-gray-400">
+				<Information />
 			</div>
 		</div>
 	);
