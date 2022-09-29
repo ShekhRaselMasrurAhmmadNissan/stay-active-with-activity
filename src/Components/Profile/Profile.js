@@ -26,6 +26,23 @@ const Profile = () => {
 					</div>
 				</div>
 			</div>
+
+			<div className="mt-8 mx-1 py-4 text-black bg-white rounded-md flex justify-evenly divide-x-2 divide-green-500">
+				<div>
+					<p>Age</p>
+					<h1 className="text-xl text-blue-500">
+						24 <small className="text-lg">years</small>
+					</h1>
+				</div>
+				<div className="pl-2">
+					<p>Profession</p>
+					<h1 className="text-xl text-blue-500">Student</h1>
+				</div>
+				<div className="pl-2">
+					<p>Favorite</p>
+					<h1 className="text-xl text-blue-500">Coding</h1>
+				</div>
+			</div>
 		</div>
 	);
 };
