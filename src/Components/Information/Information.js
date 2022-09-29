@@ -3,6 +3,7 @@ import {
 	addDataToLocalStorage,
 	getDataFromLocalStorage,
 } from '../../Utilities/dbHandler';
+import ActivitiesCompleted from '../ActivitiesCompleted/ActivitiesCompleted';
 import ActivityDetails from '../ActivityDetails/ActivityDetails';
 import AddBreak from '../AddBreak/AddBreak';
 import Profile from '../Profile/Profile';
@@ -29,6 +30,7 @@ const Information = ({ activityTime }) => {
 				activityTime={activityTime}
 				breakTime={breakTime}
 			/>
+			<ActivitiesCompleted />
 		</div>
 	);
 };
