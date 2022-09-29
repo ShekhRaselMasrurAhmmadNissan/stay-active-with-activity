@@ -2,9 +2,10 @@ import React from 'react';
 import { ToastContainer, toast } from 'react-toastify';
 import 'react-toastify/dist/ReactToastify.css';
 
-const ActivitiesCompleted = () => {
+const ActivitiesCompleted = ({ clearAllSavedData }) => {
 	const activitiesStatusHandle = () => {
 		toast('You Have Completed The Activities Successfully!');
+		clearAllSavedData();
 	};
 	return (
 		<div className="text-center mt-8">

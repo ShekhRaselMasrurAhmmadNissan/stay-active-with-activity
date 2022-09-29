@@ -8,7 +8,7 @@ import ActivityDetails from '../ActivityDetails/ActivityDetails';
 import AddBreak from '../AddBreak/AddBreak';
 import Profile from '../Profile/Profile';
 
-const Information = ({ activityTime }) => {
+const Information = ({ activityTime, setActivityTime }) => {
 	const [breakTime, setBreakTime] = useState(0);
 
 	useEffect(() => {
@@ -21,6 +21,11 @@ const Information = ({ activityTime }) => {
 		addDataToLocalStorage(activityBreakTime);
 		setBreakTime(activityBreakTime);
 	};
+	const clearAllSavedData = () => {
+		addDataToLocalStorage(0);
+		setBreakTime(0);
+		setActivityTime(0);
+	};
 
 	return (
 		<div className="lg:sticky lg:top-10">
@@ -30,7 +35,7 @@ const Information = ({ activityTime }) => {
 				activityTime={activityTime}
 				breakTime={breakTime}
 			/>
-			<ActivitiesCompleted />
+			<ActivitiesCompleted clearAllSavedData={clearAllSavedData} />
 		</div>
 	);
 };

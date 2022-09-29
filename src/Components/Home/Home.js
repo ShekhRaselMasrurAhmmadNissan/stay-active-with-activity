@@ -34,7 +34,10 @@ const Home = () => {
 				/>
 			</div>
 			<div className="col-span-1 bg-gray-400 mt-10 lg:mt-0 md:mx-8 lg:mx-0 rounded-xl lg:rounded-b-xl pb-8 md:px-8 lg:px-0">
-				<Information activityTime={activityTime} />
+				<Information
+					activityTime={activityTime}
+					setActivityTime={setActivityTime}
+				/>
 			</div>
 		</div>
 	);
