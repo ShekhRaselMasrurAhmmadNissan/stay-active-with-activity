@@ -26,14 +26,14 @@ const Home = () => {
 	};
 	return (
 		<div className="grid grid-cols-1 lg:grid-cols-5">
-			<div className="col md:col-span-1 lg:col-span-4 mt-20 lg:p-8 pr-0">
+			<div className="col-span-1 lg:col-span-4 mt-20 lg:p-8 pr-0">
 				<Header />
 				<Activities
 					activities={activities}
 					handleRequiredTime={handleRequiredTime}
 				/>
 			</div>
-			<div className="col-span-1 bg-gray-400 mt-10 lg:mt-0 md:mx-8 lg:mx-0 rounded-xl lg:rounded-none">
+			<div className="col-span-1 bg-gray-400 mt-10 lg:mt-0 md:mx-8 lg:mx-0 rounded-xl lg:rounded-b-xl pb-8 md:px-8 lg:px-0">
 				<Information activityTime={activityTime} />
 			</div>
 		</div>
